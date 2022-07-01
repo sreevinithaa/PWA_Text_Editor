@@ -4,6 +4,7 @@ import { header } from './header';
 
 export default class {
   constructor() {
+    
     const localData = localStorage.getItem('content');
 
     // check if CodeMirror is loaded
@@ -27,6 +28,7 @@ export default class {
     getDb().then((data) => {
       console.info('Loaded data from IndexedDB, injecting into editor');
       this.editor.setValue(data || localData || header);
+     
     });
 
     this.editor.on('change', () => {

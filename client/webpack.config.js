@@ -31,10 +31,10 @@ module.exports = () => {
         inject: true,
         name: 'Text Editor',
         short_name: 'Editor',
-        description: 'Save your texts!',
+        description: 'Takes notes with javascript syntax highlight!',
         background_color: '#225ca3',
         theme_color: '#225ca3',
-        start_url: './',
+        start_url: "/index.html",
         publicPath: './',
         icons: [
           {
