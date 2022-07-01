@@ -35,6 +35,7 @@ module.exports = () => {
         background_color: '#225ca3',
         theme_color: '#225ca3',
         start_url: "/index.html",
+        id: "/index.html",
         publicPath: './',
         icons: [
           {
